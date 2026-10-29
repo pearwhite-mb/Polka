@@ -53,6 +53,7 @@ hilt = "2.60.1"
 
 # Other
 jakartaInjectApi = "2.0.1"
+pearwhite-aura = "0.1.0"
 
 [bundles]
 androidx-compose-ui-test = ["androidx-compose-ui-test-junit4", "androidx-compose-ui-test-manifest"]
@@ -136,6 +137,7 @@ robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "
 
 # Other
 jakarta-inject-api = { module = "jakarta.inject:jakarta.inject-api", version.ref = "jakartaInjectApi" }
+pearwhite-aura = { group = "io.github.pearwhite-mb", name = "aura", version.ref = "pearwhite-aura" }
 
 # Dependencies of the included build-logic
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle-api", version.ref = "agp" }

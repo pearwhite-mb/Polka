@@ -13,6 +13,8 @@ dependencies {
 
     implementation(projects.core.data)
 
+    implementation(libs.pearwhite.aura)
+
     testImplementation(projects.core.testing)
 
     androidTestImplementation(libs.bundles.androidx.compose.ui.test)
